@@ -32,7 +32,7 @@ const FormCreator = () => {
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content text-center">
                     <div className="">
-                        <h1 className='text-4xl font-bold'>Form Creation Application</h1>
+                        <h1 className='text-4xl font-bold my-4'>Form Creation Application</h1>
                         <form onSubmit={handleSubmit}>
                             {formFields.map((field, index) => (
                                 <FormField
